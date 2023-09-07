@@ -1,0 +1,7 @@
+#!/usr/bin/bash
+
+echo "enter filename"
+read  filname
+
+echo "#!/bin/bash" > ${filname}
+vi ${filname}
