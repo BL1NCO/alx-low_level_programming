@@ -3,5 +3,5 @@
 echo "enter filename"
 read  filname
 
-echo "#!/bin/bash" > ${filname}
+echo "#include<stdio.h>" > ${filname}
 vi ${filname}
