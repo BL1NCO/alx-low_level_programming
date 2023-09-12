@@ -5,16 +5,15 @@
 /**
  * main - printing from a to z lowercase
  *
- * return: the value is 0 (Sucess) 
+ * Return: Always 0 (Sucess)
  */
 
 int main(void)
 {
 	char a = 'a';
-	while(a <= 'z')
+	while (a <= 'z')
 	{
-		putchar(a
-		);
+		putchar (a);
 		a++;
 	}
 	return (0);
