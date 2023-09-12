@@ -8,6 +8,7 @@
  *
  * return: the value is 0 (Sucess) 
  */
+
 int main(void)
 {
 	int n;
