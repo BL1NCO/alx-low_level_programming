@@ -5,6 +5,7 @@ include "main.h"
  *
  * Return: Always 0 (Sucess)
  */
+
 void print_alphabet_x10(void)
 {
 	char a = 'a';
