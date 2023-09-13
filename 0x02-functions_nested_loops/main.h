@@ -14,4 +14,4 @@ int _abs(int c);
 
 int print_last_digit(int d);
 
-void jack_bauer(void)
+void jack_bauer(void);
