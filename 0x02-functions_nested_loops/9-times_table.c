@@ -23,8 +23,8 @@ void times_table(void)
 			else
 			{
 					_putchar('0' + (a * b));
-					_putchar(',');
 					_putchar(' ');
+					_putchar(',');
 					_putchar(' ');
 			}
 		}
