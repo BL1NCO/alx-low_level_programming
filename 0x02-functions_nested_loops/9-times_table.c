@@ -22,7 +22,6 @@ void times_table(void)
 			}
 			else
 			{
-					((a * b) <= 9);
 					_putchar('0' + (a * b));
 					_putchar(',');
 					_putchar(' ');
@@ -30,6 +29,5 @@ void times_table(void)
 		}
 		_putchar('\n');
 	}
-	return (0);
 }
 
