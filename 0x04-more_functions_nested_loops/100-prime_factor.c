@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "main.h"
+#include <math.h>
 
 /**
  * main - printing from a to z lowercase
