@@ -9,7 +9,7 @@
 
 void _puts_recursion(char *s)
 {
-	unsigned int j;
+	int j;
 	int i;
 	char *f;
 
