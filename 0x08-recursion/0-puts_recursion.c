@@ -9,17 +9,8 @@
 
 void _puts_recursion(char *s)
 {
-	int j;
-	int i;
-	char *f;
-
-	f = s;
-	for (j = 0; *f != '\0'; f++)
-	{
-		j++;
-	}
-	for (i = 0; i < j; i++)
-	{
-		_putchar(s[i]);
-	}
+	if (*s <= '\0')
+		return;
+	_putchar (*s);
+	_puts_recursion(s + 1);
 }
