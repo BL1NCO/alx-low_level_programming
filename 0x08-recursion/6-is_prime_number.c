@@ -1,6 +1,6 @@
 #include "main.h"
 
-int actual_prime(int n, int i);
+int x_prime(int n, int i);
 
 /**
  * is_prime_number - funt
