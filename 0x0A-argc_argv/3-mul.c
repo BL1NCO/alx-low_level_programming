@@ -19,9 +19,9 @@ int main(int argc, char **argv)
 		printf("Error\n");
 		return (1);
 	}
-	else
+	else if (argc > 1)
 	{
 		printf("%d", by);
-		return (0);
 	}
+	return (0);
 }
