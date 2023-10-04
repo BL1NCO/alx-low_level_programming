@@ -1,6 +1,5 @@
 #include<stdio.h>
 #include<stdlib.h>
-#include "main.h"
 
 /**
  * main - printing from a to z lowercase
@@ -16,8 +15,7 @@ int main(int argc, char *argv[])
 	if (argc == 3)
 	{
 		printf("%d\n", by);
-		by = atoi(*argv[1]) * atoi(*argv[2]);
-		return (0);
+		by = atoi(argv[1]) * atoi(argv[2]);
 	}
 	else
 	{
