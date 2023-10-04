@@ -9,7 +9,7 @@
  * @argc: parametre used as integer
  * @argv: parametre used as integer
  */
-int main(int argc, char **argv)
+int main(int argc, char *argv[])
 {
 	int by;
 
