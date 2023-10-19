@@ -1,0 +1,27 @@
+#include <stdio.h>
+#include "lists.h"
+
+/**
+ * print_list - proto funct
+ *
+ * @h: ptr str
+ * Return: always 0
+ */
+
+size_t print_list(const list_t *h)
+{
+	size_t i = 0;
+
+	while (h)
+	{
+		if (!h->str)
+			printf("[0] (nil)\n");
+		else
+			printf("[%u] %s\n", h->l, h->str);
+		h = h->n;
+		i++;
+	}
+
+	return (i);
+}
+
