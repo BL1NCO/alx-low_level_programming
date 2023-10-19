@@ -2,18 +2,18 @@
 #define LISTS_H
 
 /**
- * struct lst_k - structure
+ * struct list_s - structure
  *
  * @str: str
- * @l: int
- * @n: node ptr
+ * @len: int
+ * @next: node ptr
  */
 
-typedef struct lst_k
+typedef struct list_s
 {
 	char *str;
-	unsigned int l;
-	struct lst_k *n;
+	unsigned int len;
+	struct list_s *next;
 } list_t;
 
 size_t print_list(const list_t *h);
