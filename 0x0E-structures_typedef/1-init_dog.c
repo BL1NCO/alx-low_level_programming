@@ -1,4 +1,4 @@
-#include "main.h"
+#include "dog.h"
 
 /**
  * init_dog - printing from a to z lowercase
