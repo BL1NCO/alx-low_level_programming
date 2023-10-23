@@ -1,4 +1,4 @@
-#include "main.h"
+#include "dog.h"
 
 /**
  * _strcpy - printing from a to z lowercase
