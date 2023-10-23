@@ -3,6 +3,47 @@
 #include "dog.h"
 
 /**
+ * _strlen - printing from a to z lowercase
+ *
+ * Return: Always 0 (Sucess)
+ * @s: parametre used as integer
+ */
+
+int _strlen(char *s)
+{
+	int j;
+
+	for (j = 0; *s != '\0'; s++)
+		j++;
+	return (j);
+}
+
+/**
+ * _strcpy - printing from a to z lowercase
+ *
+ * Return: Always 0 (Sucess)
+ * @dest: parametre used as integer
+ * @src: parametre used as integer
+ */
+
+char *_strcpy(char *dest, char *src)
+{
+	int l = 0;
+	int x = 0;
+
+	while (*(src + l) != '\0')
+	{
+		l++;
+	}
+	for ( ; x < l ; x++)
+	{
+		dest[x] = src[x];
+	}
+	dest[l] = '\0';
+	return (dest);
+}
+
+/**
  * new_dog - printing from a to z lowercase
  *
  * @name: parametre used as integer
